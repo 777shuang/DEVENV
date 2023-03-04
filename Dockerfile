@@ -6,4 +6,3 @@ RUN echo >> /etc/apt/sources.list && \
     apt upgrade -y && \
     apt install -y mingw-w64 gcc-arm-mingw32ce unzip nano curl wget qemu qemu-system && \
     nimble install -y apt_brain
-CMD export PATH="~/.nimble/bin:$PATH"
