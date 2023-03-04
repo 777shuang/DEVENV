@@ -6,3 +6,4 @@ RUN apt update && \
     apt update && \
     apt install -y mingw-w64 gcc-arm-mingw32ce unzip nano curl && \
     nimble install -y apt_brain
+CMD export PATH="$HOME/.nimble/bin:$PATH"
