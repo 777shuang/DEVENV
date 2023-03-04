@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t devenv .
+docker build -t 777shuang/devenv .
