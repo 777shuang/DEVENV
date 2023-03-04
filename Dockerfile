@@ -1,4 +1,5 @@
 FROM nimlang/nim
+ENV DEBIAN_FRONTEND=noninteractive
 RUN echo >> /etc/apt/sources.list && \
     echo "deb [trusted=yes] https://max.kellermann.name/debian cegcc_buster-default main" >> /etc/apt/sources.list && \
     apt update && \
